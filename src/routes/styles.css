@@ -6,13 +6,34 @@
 @font-face {
 	font-family: 'nexa';
 	src: url('./NexaDemo-Light.otf') format('opentype');
-    font-weight: normal;
+	font-weight: normal;
 }
 @font-face {
 	font-family: 'nexa';
 	src: url('./NexaDemo-Bold.otf') format('opentype');
-    font-weight: bold;
+	font-weight: bold;
 }
-*{
-    font-family: nexa;
+* {
+	font-family: nexa;
+}
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #f2933a #000000;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+	background: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #f2933a;
+	border-radius: 10px;
+	border: 3px solid #000000;
 }

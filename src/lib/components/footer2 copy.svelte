@@ -1,22 +1,17 @@
-<section class="footer bg-slate-50">
-	<div class="footer-top gap-4 flex justify-evenly py-8 text-gray-700 flex-col md:flex-row">
-		<div class="place-order flex flex-col items-center">
-			<h1 class="text-center font-extrabold max-2md:text-4xl text-5xl max-w-[300px] mx-auto">
-				Place Your <br> Order Now
-			</h1>
-			<button class="text-gray-900 border-2 border-gray-800 mt-4 p-4 max-2md:text-xl text-2xl hover:underline underline-offset-8">Browse Menu</button>
+<section class="footer text-gray-300 bg-neutral-950">
+	<div class="flex max-md:flex-col justify-evenly  max-w-[1200px] mx-auto">
+		<div class="basis-1/3 p-4">
+			<img alt="logo" src="./vasista_white.png" class=" mx-auto h-[100px]" />
 		</div>
-		<div class="bg-gray-900 w-[90%] max-md:mx-auto md:w-[2px] max-md:h-[2px]" />
-
-		<div class="contactus max-w-[90%] max-md:mx-auto flex flex-col">
-			<h1 class=" font-extrabold max-2md:text-2xl text-4xl">Contact us</h1>
-			<div class="flex gap-3 max-2md:text-sm text-xl font-bold mt-2">
+		<div class="basis-1/3 p-4 max-md:ml-10">
+			<h1 class="font-bold text-xl my-3 underline underline-offset-8">Contact Us</h1>
+			<div class="flex gap-3 mt-2">
 				<svg
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke-width="1.5"
 					stroke="currentColor"
-					class="w-7 h-7 max-2md:w-5 max-2md:h-5"
+					class="w-6 h-6"
 				>
 					<path
 						stroke-linecap="round"
@@ -26,14 +21,14 @@
 				</svg>
 				<p>+91 85002 45555</p>
 			</div>
-			<div class="flex font-bold max-2md:text-sm text-xl gap-3 mt-2">
+			<div class="flex gap-3 mt-2">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke-width="1.5"
 					stroke="currentColor"
-					class="w-7 h-7 max-2md:w-5 max-2md:h-5"
+					class="w-6 h-6"
 				>
 					<path
 						stroke-linecap="round"
@@ -44,13 +39,26 @@
 
 				<p>vasistakitchen@gmail.com</p>
 			</div>
-			<div class="flex font-bold max-2md:text-sm text-sm gap-3 mt-2">
+		</div>
+		<div class="basis-1/3 p-4 max-md:ml-10">
+			<h1 class="font-bold text-xl my-3 underline underline-offset-8">Address</h1>
+			<!-- <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3798.7327538791983!2d83.36455154025703!3d17.80425279073123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a395b79e2a8bdc9%3A0xa3dff577d5f83269!2sVasista%20Kitchen!5e0!3m2!1sen!2sin!4v1690544525901!5m2!1sen!2sin"
+                width="500"
+                height="300"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+            /> -->
+			<div class="flex gap-3">
 				<svg
+					
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke-width="1.5"
 					stroke="currentColor"
-					class="w-7 h-7 max-2md:w-5 max-2md:h-5"
+					class="w-6 h-6"
 				>
 					<path
 						stroke-linecap="round"
@@ -70,16 +78,5 @@
 				</p>
 			</div>
 		</div>
-		<div class="bg-gray-900 w-[90%] max-md:mx-auto md:w-[2px] max-md:h-[2px]" />
-		<!-- svelte-ignore a11y-missing-attribute -->
-		<iframe
-			class="rounded-3xl px-2 max-md:max-w-[90%] md:w-[150px] lg:w-auto  max-md:mx-auto"
-			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3798.7327538791983!2d83.36455154025703!3d17.80425279073123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a395b79e2a8bdc9%3A0xa3dff577d5f83269!2sVasista%20Kitchen!5e0!3m2!1sen!2sin!4v1690544525901!5m2!1sen!2sin"
-			
-			style="border:0;"
-			allowfullscreen=""
-			loading="lazy"
-			referrerpolicy="no-referrer-when-downgrade"
-		/>
 	</div>
 </section>
