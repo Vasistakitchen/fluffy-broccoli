@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+	font-family: 'nexa';
+	src: url('./NexaDemo-Light.otf') format('opentype');
+    font-weight: normal;
+}
+@font-face {
+	font-family: 'nexa';
+	src: url('./NexaDemo-Bold.otf') format('opentype');
+    font-weight: bold;
+}
+*{
+    font-family: nexa;
+}
