@@ -5,12 +5,12 @@
 @tailwind utilities;
 @font-face {
 	font-family: 'nexa';
-	src: url('./NexaDemo-Light.otf') format('opentype');
+	src: url('../../../vasista-kitchen/static/NexaDemo-Light.otf') format('opentype');
 	font-weight: normal;
 }
 @font-face {
 	font-family: 'nexa';
-	src: url('./NexaDemo-Bold.otf') format('opentype');
+	src: url('../../../vasista-kitchen/static/NexaDemo-Bold.otf') format('opentype');
 	font-weight: bold;
 }
 * {

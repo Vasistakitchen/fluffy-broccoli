@@ -58,14 +58,14 @@
 
 	@font-face {
 		font-family: 'rylan';
-		src: url('/Rylan-Regular.otf') format('opentype');
+		src: url('../../../static/Rylan-Regular.otf') format('opentype');
 	}
 	@font-face {
 		font-family: 'jitter';
-		src: url('/Jitter.otf') format('opentype');
+		src: url('../../../static/Jitter.otf') format('opentype');
 	}
 	@font-face {
 		font-family: 'violitta';
-		src: url('/Violitta.otf') format('opentype');
+		src: url('../../../static/Violitta.otf') format('opentype');
 	}
 </style>
