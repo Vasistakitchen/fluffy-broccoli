@@ -3,11 +3,12 @@
 </script>
 
 <svelte:window bind:scrollY={y}  />
+<section class="{y > 20
+	? 'text-black bg-slate-100'
+	: 'text-white   bg-zinc-900/40'} fixed top-0 z-50 transition-all ease-in ">
 <nav
 	id="navbar"
-	class="navbar transition-all ease-in {y > 20
-		? 'text-black bg-slate-100'
-		: 'text-white   bg-zinc-900/40'} w-[100vw] z-50 flex flex-row justify-around items-center p-2 mb-2 fixed top-0"
+	class="navbar  w-[100vw]  flex flex-row justify-around items-center p-2 mb-2 "
 >
 	<img src={y > 20 ? './vasista_black.png' : './vasista_white.png'} alt="logo" class="h-[60px]" />
 	<div class="hidden md:block">
@@ -29,9 +30,7 @@
 </nav>
 
 <div
-	class="fixed md:hidden z-50 text-sm transition-all ease-in {y > 20
-		? 'text-black  bg-slate-100'
-		: 'text-white   bg-zinc-900/40'} top-[76px] flex flex-row justify-evenly bg-zinc-900/40 w-[100vw] pb-2"
+	class=" md:hidden  text-sm   flex flex-row justify-evenly  w-[100vw] pb-2"
 >
 	<a href="#" class=" p-2 hover:underline underline-offset-4 ease-in transition-all mx-1"
 		>Browse Menu</a
@@ -43,3 +42,4 @@
 		>Contact Us</a
 	>
 </div>
+</section>
