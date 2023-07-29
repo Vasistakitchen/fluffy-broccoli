@@ -42,7 +42,7 @@
 <style>
 	.hero {
 		background: linear-gradient(180deg, rgba(27, 19, 24, 0.3), rgba(12, 4, 8, 0.425)),
-			url('../../../static/food.jpg');
+			url('../images/food.jpg');
 		background-size: cover;
 	}
 	.welcome {
@@ -58,14 +58,14 @@
 
 	@font-face {
 		font-family: 'rylan';
-		src: url('../../../static/Rylan-Regular.otf') format('opentype');
+		src: url('../fonts/Rylan-Regular.otf') format('opentype');
 	}
 	@font-face {
 		font-family: 'jitter';
-		src: url('../../../static/Jitter.otf') format('opentype');
+		src: url('../fonts/Jitter.otf') format('opentype');
 	}
 	@font-face {
 		font-family: 'violitta';
-		src: url('../../../static/Violitta.otf') format('opentype');
+		src: url('../fonts/Violitta.otf') format('opentype');
 	}
 </style>
