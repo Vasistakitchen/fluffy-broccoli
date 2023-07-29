@@ -42,7 +42,7 @@
 <style>
 	.hero {
 		background: linear-gradient(180deg, rgba(27, 19, 24, 0.3), rgba(12, 4, 8, 0.425)),
-			url('./food.jpg');
+			url('../../../static/food.jpg');
 		background-size: cover;
 	}
 	.welcome {
