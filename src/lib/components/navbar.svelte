@@ -11,13 +11,13 @@
 >
 	<img src={y > 20 ? './vasista_black.png' : './vasista_white.png'} alt="logo" class="h-[60px]" />
 	<div class="hidden md:block">
-		<a href="#ntng" class=" p-4 hover:underline underline-offset-4 ease-in transition-all mx-2"
+		<a href="#/" class=" p-4 hover:underline underline-offset-4 ease-in transition-all mx-2"
 			>Browse Menu</a
 		>
-		<a href="#ntng" class=" p-4 hover:underline underline-offset-4 ease-in transition-all mx-2"
+		<a href="#/" class=" p-4 hover:underline underline-offset-4 ease-in transition-all mx-2"
 			>Service Request</a
 		>
-		<a href="#ntng" class=" p-4 hover:underline underline-offset-4 ease-in transition-all mx-2"
+		<a href="#/" class=" p-4 hover:underline underline-offset-4 ease-in transition-all mx-2"
 			>Contact Us</a
 		>
 	</div>
@@ -33,13 +33,13 @@
 		? 'text-black  bg-slate-100'
 		: 'text-white   bg-zinc-900/40'} top-[76px] flex flex-row justify-evenly bg-zinc-900/40 w-[100vw] pb-2"
 >
-	<a href="#ntng" class=" p-2 hover:underline underline-offset-4 ease-in transition-all mx-1"
+	<a href="#/" class=" p-2 hover:underline underline-offset-4 ease-in transition-all mx-1"
 		>Browse Menu</a
 	>
-	<a href="#ntng" class=" p-2 hover:underline underline-offset-4 ease-in transition-all mx-1"
+	<a href="#/" class=" p-2 hover:underline underline-offset-4 ease-in transition-all mx-1"
 		>Service Request</a
 	>
-	<a href="#ntng" class=" p-2 hover:underline underline-offset-4 ease-in transition-all mx-1"
+	<a href="#/" class=" p-2 hover:underline underline-offset-4 ease-in transition-all mx-1"
 		>Contact Us</a
 	>
 </div>
