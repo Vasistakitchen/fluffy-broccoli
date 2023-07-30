@@ -56,16 +56,5 @@
 		font-family: violitta;
 	} */
 
-	@font-face {
-		font-family: 'rylan';
-		src: url('../fonts/Rylan-Regular.otf') format('opentype');
-	}
-	@font-face {
-		font-family: 'jitter';
-		src: url('../fonts/Jitter.otf') format('opentype');
-	}
-	@font-face {
-		font-family: 'violitta';
-		src: url('../fonts/Violitta.otf') format('opentype');
-	}
+
 </style>

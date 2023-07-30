@@ -13,26 +13,39 @@
 	src: url('../lib/fonts/NexaDemo-Bold.otf') format('opentype');
 	font-weight: bold;
 }
+@font-face {
+	font-family: 'rylan';
+	src: url('../lib/fonts/Rylan-Regular.otf') format('opentype');
+}
+@font-face {
+	font-family: 'jitter';
+	src: url('../lib/fonts/Jitter.otf') format('opentype');
+}
+@font-face {
+	font-family: 'violitta';
+	src: url('../lib/fonts/Violitta.otf') format('opentype');
+}
 * {
 	font-family: nexa;
 }
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
-* {
+body {
 	scrollbar-width: thin;
 	scrollbar-color: #f2933a #000000;
+	overflow-x: hidden;
 }
 
 /* Chrome, Edge, and Safari */
-*::-webkit-scrollbar {
+body::-webkit-scrollbar {
 	width: 10px;
 }
 
-*::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
 	background: #000000;
 }
 
-*::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
 	background-color: #f2933a;
 	border-radius: 10px;
 	border: 3px solid #000000;
