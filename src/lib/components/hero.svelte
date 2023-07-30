@@ -45,17 +45,7 @@
 			url('../images/food.jpg');
 		background-size: cover;
 	}
-	.welcome {
-		font-family: jitter;
-	}
-
-	.vasista {
-		font-family: rylan;
-	}
-	/* .kitchen{
-		font-family: violitta;
-	} */
-
+	
 	@font-face {
 		font-family: 'rylan';
 		src: url('../fonts/Rylan-Regular.otf') format('opentype');
@@ -68,4 +58,15 @@
 		font-family: 'violitta';
 		src: url('../fonts/Violitta.otf') format('opentype');
 	}
+	.vasista {
+		font-family: rylan;
+	}
+	.welcome {
+		font-family: jitter;
+	}
+	/* .kitchen{
+		font-family: violitta;
+	} */
+
+
 </style>

@@ -1,64 +1,71 @@
-<section class="testimonials bg-white">
-	<h1 class=" font-extrabold max-2md:text-2xl text-4xl text-center py-5">What our customer says</h1>
-	<div class="flex md:flex-row flex-col justify-evenly items-center my-10 gap-5">
-		<h1 class=" font-extrabold max-2md:text-2xl text-4xl text-center py-5">What our customer says</h1>
-		<div class="w-[250px] md:w-[28%] hover:bg-zinc-100 shadow-2xl rounded-2xl p-3">
-			<img
-				class=" md:h-[40px]  h-[20px]"
-				src="https://img.icons8.com/ios-filled/50/quote-left.png"
-				alt="quote-left"
-			/>
-			<p class=" my-2  md:text-base font-bold max-2md:text-sm text-xs gap-3 mt-2 ">
-				hjghfghvghvgbghvgvjhbhjbn njjnkjbkjbhjbghb tgvtyfvgvbbbjbhghgvh jbbjjjhjbbjnnnbbhbnnb bbh
-			</p>
-			<p class="font-bold mb-1">Naveen navy</p>
-			<div class="flex flex-row gap-2 text-yellow-500">
-				{#each Array(5) as _,index (index) }
-			<svg xmlns="http://www.w3.org/2000/svg" fill="currentcolor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-				<path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
-			  </svg>
 
-			{/each}
+
+<section class=" lg:w-[90vw] max-w-[1600px] mx-auto">
+	<div class="testimonials grid grid-cols-1  md:grid-cols-3 items-center my-2">
+		<div class="basis-1/3">
+			<div class="text-center p-4 mx-auto max-w-[400px]  text-5xl font-bold text-gray-700 my-2">
+				What our customers say
 			</div>
 		</div>
-		<div class="w-[250px] md:w-[28%] shadow-2xl hover:bg-zinc-100 rounded-2xl p-3">
-			<img
-				class=" md:h-[50px]  h-[20px]"
-				src="https://img.icons8.com/ios-filled/50/quote-left.png"
-				alt="quote-left"
-			/>
-			<p class=" my-2 text-xs md:text-base ">
-				hjghfghvghvgbghvgvjhbhjbn njjnkjbkjbhjbghb tgvtyfvgvbbbjbhghgvh jbbjjjhjbbjnnnbbhbnnb bbh
-			</p>
-			<p class="font-bold mb-1">Naveen navy</p>
-			<div class="flex flex-row gap-2 text-yellow-500">
-				{#each Array(5) as _,index (index) }
-			<svg xmlns="http://www.w3.org/2000/svg" fill="currentcolor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-				<path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
-			  </svg>
-
-			{/each}
+		{#each Array(2) as _, index}
+			<div class="basis-1/3">
+				<div
+					class="testimonial max-w-[400px] mx-auto max-md:min-w-[310px]  flex flex-col items-start gap-2 p-8"
+				>
+					<svg
+						class="h-8 fill-gray-600"
+						style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;"
+						viewBox="0 0 100000 125000"
+						x="0px"
+						y="0px"
+						fill-rule="evenodd"
+						clip-rule="evenodd"
+						><defs
+							><style type="text/css">
+							</style></defs
+						><g
+							><path
+								class="fil0"
+								d="M38287 85139l0 -35139 -23426 0c0,-12913 10501,-23426 23426,-23426l0 -11713c-19375,0 -35139,15763 -35139,35139l0 35139 35139 0z"
+							/><path
+								class="fil0"
+								d="M96852 85139l0 -35139 -23426 0c0,-12913 10501,-23426 23428,-23426l0 -11713c-19377,0 -35140,15763 -35140,35139l0 35139 35138 0z"
+							/></g
+						></svg
+					>
+					<p class="text-gray-700 text-justify text-sm">
+						Excepteur exercitation mollit exercitation irure in consectetur minim laboris cupidatat
+						labore cupidatat eu Lorem. Magna nulla voluptate quis mollit cillum ut cupidatat amet
+						eiusmod duis.
+					</p>
+					<h1 class="font-bold my-2">- Naveen</h1>
+				</div>
 			</div>
-		</div>
-		<div class="w-[250px] md:w-[28%] shadow-2xl hover:bg-zinc-100 rounded-2xl p-3">
-			<img
-				class=" md:h-[50px]  h-[20px]"
-				src="https://img.icons8.com/ios-filled/50/quote-left.png"
-				alt="quote-left"
-			/>
-			<p class=" my-2 text-xs md:text-base ">
-				hjghfghvghvgbghvgvjhbhjbn njjnkjbkjbhjbghb tgvtyfvgvbbbjbhghgvh jbbjjjhjbbjnnnbbhbnnb bbh
-			</p>
-			<p class="font-bold mb-1">Naveen navy</p>
-			<div class="flex flex-row gap-2 text-yellow-500">
-				{#each Array(5) as _,index (index) }
-			<svg xmlns="http://www.w3.org/2000/svg" fill="currentcolor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-				<path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
-			  </svg>
-
-			{/each}
-			</div>
-		</div>
-		
+		{/each}
 	</div>
 </section>
+
+<style>
+	.testimonials {
+		font-family: nexa;
+	}
+
+	.testimonials {
+		scrollbar-width: thin;
+		scrollbar-color: #f2933a #ffffff;
+	}
+
+	.testimonials::-webkit-scrollbar {
+		width: 10px;
+	}
+
+	.testimonials::-webkit-scrollbar-track {
+		background: #ffffff;
+	}
+
+	.testimonials::-webkit-scrollbar-thumb {
+		background-color: #f2933a;
+		border-radius: 10px;
+		border: 3px solid #ffffff;
+	}
+</style>
