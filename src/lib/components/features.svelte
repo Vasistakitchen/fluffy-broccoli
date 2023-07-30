@@ -1,13 +1,13 @@
 <section class=" max-w-[1600px] mx-auto">
 	<div class="  ">
-		<div
+		<div data-aos="fade-up"
 			class=" grid sm:grid-cols-2 md:grid-cols-3 p-8 justify-center gap-4 align-middle items-center text-center"
 		>
-			<div class="   rounded-lg p-4 flex flex-col gap-2 transition duration-500 hover:scale-[1.04]">
-				<p class="text-3xl sm:text-5xl text-center font-semibold">What we Offer</p>
+			<div class="   p-4 transition duration-500 hover:scale-[1.04]">
+				<p class="text-gray-700 max-w-[500px] text-5xl text-center font-semibold">What we offer</p>
 			</div>
 			<div
-				class="  rounded-lg p-4 flex flex-col gap-2 transform transition duration-500 hover:scale-[1.04]"
+				class="  rounded-lg p-4 max-w-[400px] flex flex-col gap-2 transform transition duration-500 hover:scale-[1.04]"
 			>
 				<img class=" justify-center rounded-lg" src="menu.webp" alt="" />
 				<p class=" text-left font-bold mt-4">MENU</p>
@@ -17,7 +17,7 @@
 				</p>
 			</div>
 			<div
-				class="  rounded-lg p-4 flex flex-col gap-2 transform transition duration-500 hover:scale-[1.04]"
+				class="  rounded-lg p-4 max-w-[400px] flex flex-col gap-2 transform transition duration-500 hover:scale-[1.04]"
 			>
 				<img class=" justify-center rounded-lg" src="menu.webp" alt="" />
 				<p class=" text-left font-bold mt-4">OPEN DINING</p>
@@ -27,7 +27,7 @@
 				</p>
 			</div>
 			<div
-				class="  rounded-lg p-4 flex flex-col gap-2 transform transition duration-500 hover:scale-[1.04]"
+				class="  rounded-lg p-4 max-w-[400px] flex flex-col gap-2 transform transition duration-500 hover:scale-[1.04]"
 			>
 				<img class=" justify-center rounded-lg" src="menu.webp" alt="" />
 				<p class=" text-left font-bold mt-4">DOOR STEP DELIVERY</p>
@@ -37,7 +37,7 @@
 				</p>
 			</div>
 			<div
-				class="  rounded-lg p-4 flex flex-col gap-2 transform transition duration-500 hover:scale-[1.04]"
+				class="  rounded-lg p-4 max-w-[400px] flex flex-col gap-2 transform transition duration-500 hover:scale-[1.04]"
 			>
 				<img class=" justify-center rounded-lg" src="menu.webp" alt="" />
 				<p class=" text-left font-bold mt-4">OPEN DINING</p>
@@ -47,7 +47,7 @@
 				</p>
 			</div>
 			<div
-				class="  rounded-lg p-4 flex flex-col gap-2 transform transition duration-500 hover:scale-[1.04]"
+				class="  rounded-lg p-4 max-w-[400px] flex flex-col gap-2 transform transition duration-500 hover:scale-[1.04]"
 			>
 				<img class=" justify-center rounded-lg" src="menu.webp" alt="" />
 				<p class=" text-left font-bold mt-4">OPEN DINING</p>

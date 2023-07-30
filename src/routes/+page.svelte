@@ -7,6 +7,6 @@
 
 <Hero/>
 <Features/>
-<!-- <Testimonials/> -->
+<Testimonials/>
 <Footer/>
 
