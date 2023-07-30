@@ -1,13 +1,14 @@
 <section class="testimonials bg-white">
-	<h1 class="mt-3 text-center font-bold">What our customer says</h1>
+	<h1 class=" font-extrabold max-2md:text-2xl text-4xl text-center py-5">What our customer says</h1>
 	<div class="flex md:flex-row flex-col justify-evenly items-center my-10 gap-5">
+		<h1 class=" font-extrabold max-2md:text-2xl text-4xl text-center py-5">What our customer says</h1>
 		<div class="w-[250px] md:w-[28%] hover:bg-zinc-100 shadow-2xl rounded-2xl p-3">
 			<img
-				class=" md:h-[50px]  h-[20px]"
+				class=" md:h-[40px]  h-[20px]"
 				src="https://img.icons8.com/ios-filled/50/quote-left.png"
 				alt="quote-left"
 			/>
-			<p class=" my-2 text-xs md:text-base ">
+			<p class=" my-2  md:text-base font-bold max-2md:text-sm text-xs gap-3 mt-2 ">
 				hjghfghvghvgbghvgvjhbhjbn njjnkjbkjbhjbghb tgvtyfvgvbbbjbhghgvh jbbjjjhjbbjnnnbbhbnnb bbh
 			</p>
 			<p class="font-bold mb-1">Naveen navy</p>
