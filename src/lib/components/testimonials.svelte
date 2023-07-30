@@ -1,14 +1,25 @@
+<script>
+	let reviews = [
+		'I was thrilled with the unique charm of this small restaurant . I enjoyed exceptional flavors in the dishes and appreciated the attentive service. Excited to return and try more from the menu.',
+		'The restaurant is a hidden gem, offering mouthwatering food, affordable prices, and excellent personalized service, making it highly recommended for a delightful dining experience.'
+	];
+	let names = ['Naveen', 'Ravi'];
+</script>
+
 <section class="  max-w-[1600px] mx-auto">
-	<div class="testimonials grid grid-cols-1 gap-4 p-8 md:grid-cols-3 items-center my-2">
+	<div
+		data-aos="fade-up"
+		class="testimonials grid grid-cols-1 gap-4 p-8 md:grid-cols-3 items-center my-2"
+	>
 		<div class="basis-1/3">
-			<div data-aos="fade-up"
+			<div
 				class="text-center md:text-left p-4 mx-auto max-lg:max-w-[400px] text-5xl font-bold text-gray-700 my-2"
 			>
 				What our customers say
 			</div>
 		</div>
-		{#each Array(2) as _, index}
-			<div data-aos="fade-up" data-aos-delay={(index+1)*100} class="basis-1/3">
+		{#each reviews as review, index}
+			<div data-aos="fade-up" data-aos-delay={(index + 1) * 100} class="basis-1/3">
 				<div class="testimonial max-w-[400px] mx-auto flex flex-col items-start gap-2 p-4">
 					<svg
 						class="h-8 fill-gray-600"
@@ -31,12 +42,10 @@
 							/></g
 						></svg
 					>
-					<p class="text-gray-700 text-justify text-sm">
-						Excepteur exercitation mollit exercitation irure in consectetur minim laboris cupidatat
-						labore cupidatat eu Lorem. Magna nulla voluptate quis mollit cillum ut cupidatat amet
-						eiusmod duis.
+					<p class="text-gray-700 text-justify text-sm xl:text-xl">
+						{review}
 					</p>
-					<h1 class="font-bold my-2">- Naveen</h1>
+					<h1 class="font-bold my-2">- {names[index]}</h1>
 				</div>
 			</div>
 		{/each}

@@ -1,4 +1,4 @@
-<section class="h-full  my-10">
+<section id="aboutus" class="h-full  my-10">
     <div class="lg:max-w-[1600px] p-8 flex ml-auto mr-auto  flex-col-reverse  lg:flex-row text-justify  items-center justify-center">
         <div data-aos="fade-up" data-aos-once="false" class="basis-1/2 text-neutral-800 flex flex-col  justify-center p-4 ">
         <h1 class="text-5xl text-gray-700 font-semibold text-center md:text-start "> About Us</h1>

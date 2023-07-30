@@ -15,13 +15,13 @@
 		<img src={y > 20 ? './vasista_white.png' : './vasista_white.png'} alt="logo" class="h-[60px]" />
 		<div class="flex flex-row items-center">
 			<div class="hidden md:block">
-				<a href="#" class=" p-4 hover:underline underline-offset-4 ease-in transition-all mx-2"
+				<a href="#aboutus" class=" p-4 hover:underline underline-offset-4 ease-in transition-all mx-2"
 					>About Us</a
 				>
 				<a href="#" class=" p-4 hover:underline underline-offset-4 ease-in transition-all mx-2"
 					>Enquiry</a
 				>
-				<a href="#" class=" p-4 hover:underline underline-offset-4 ease-in transition-all mx-2"
+				<a href="#contactus" class=" p-4 hover:underline underline-offset-4 ease-in transition-all mx-2"
 					>Contact Us</a
 				>
 			</div>
@@ -34,13 +34,13 @@
 	</nav>
 
 	<div class=" md:hidden text-sm flex flex-row justify-evenly w-[100vw] pb-2">
-		<a href="#" class=" p-2 hover:underline underline-offset-4 ease-in transition-all mx-1"
+		<a href="#aboutus" class=" p-2 hover:underline underline-offset-4 ease-in transition-all mx-1"
 			>About Us</a
 		>
 		<a href="#" class=" p-2 hover:underline underline-offset-4 ease-in transition-all mx-1"
 			>Enquiry</a
 		>
-		<a href="#" class=" p-2 hover:underline underline-offset-4 ease-in transition-all mx-1"
+		<a href="#contactus" class=" p-2 hover:underline underline-offset-4 ease-in transition-all mx-1"
 			>Contact Us</a
 		>
 	</div>

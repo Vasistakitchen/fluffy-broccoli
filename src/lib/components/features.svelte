@@ -1,59 +1,48 @@
+<script>
+	import Foodplate from '../components/foodplate.svelte';
+	import Dining from '../components/dining.svelte';
+	import Delivery from '../components/delivery.svelte';
+	import Catering from '../components/catering.svelte';
+</script>
+
 <section class=" max-w-[1600px] mx-auto">
 	<div class="  ">
-		<div data-aos="fade-up"
-			class=" grid sm:grid-cols-2 md:grid-cols-3 p-8 justify-center gap-4 align-middle items-center text-center"
+		<div
+			class=" grid sm:grid-cols-2 p-8 justify-center gap-4 align-middle items-center text-center"
 		>
-			<div class="   p-4 transition duration-500 hover:scale-[1.04]">
-				<p class="text-gray-700 max-w-[500px] text-5xl text-center md:text-left font-semibold">What we offer</p>
-			</div>
-			<div
-				class="  rounded-lg p-4  flex flex-col gap-2 transform transition duration-500 hover:scale-[1.04]"
-			>
-				<img class=" justify-center rounded-lg" src="menu.webp" alt="" />
-				<p class=" text-left font-bold mt-4">MENU</p>
-				<p class="  font-normal text-justify text-sm">
-					There is no better reward for hard work than good food. Food is always more satisfying
-					after a day’s hard work
+			<div data-aos="fade-up" class="   p-4 flex flex-col gap-2">
+				<Foodplate />
+				<p class=" text-left font-bold lg:text-xl mt-4">Wide range of menu</p>
+				<p class="  font-normal text-justify text-sm lg:text-xl">
+					Savor an array of delectable flavors from our wide-ranging menu, carefully curated to
+					cater to every palate. Whether you crave classic favorites or adventurous dishes, we have
+					something to delight everyone.
 				</p>
 			</div>
-			<div
-				class="  rounded-lg p-4  flex flex-col gap-2 transform transition duration-500 hover:scale-[1.04]"
-			>
-				<img class=" justify-center rounded-lg" src="menu.webp" alt="" />
-				<p class=" text-left font-bold mt-4">OPEN DINING</p>
-				<p class="  font-normal text-justify text-sm">
-					There is no better reward for hard work than good food. Food is always more satisfying
-					after a day’s hard work
+			<div data-aos="fade-up" class="   p-4 flex flex-col gap-2">
+				<Dining />
+				<p class=" text-left font-bold lg:text-xl mt-4">Open Garden Dining</p>
+				<p class="  font-normal text-justify text-sm lg:text-xl">
+					Indulge in a memorable dining experience amidst nature's beauty at our open garden
+					setting. Enjoy delicious food while surrounded by a serene and charming ambiance.
 				</p>
 			</div>
-			<div
-				class="  rounded-lg p-4  flex flex-col gap-2 transform transition duration-500 hover:scale-[1.04]"
-			>
-				<img class=" justify-center rounded-lg" src="menu.webp" alt="" />
-				<p class=" text-left font-bold mt-4">DOOR STEP DELIVERY</p>
-				<p class="  font-normal text-justify text-sm">
-					There is no better reward for hard work than good food. Food is always more satisfying
-					after a day’s hard work
+
+			<div data-aos="fade-up" class="   p-4 flex flex-col gap-2">
+				<Delivery />
+				<p class=" text-left font-bold lg:text-xl mt-4">Door step delivery</p>
+				<p class="  font-normal text-justify text-sm lg:text-xl">
+					Experience the convenience of doorstep delivery, bringing our delectable cuisine straight
+					to your home. Enjoy the same great taste and quality, now at your doorstep.
 				</p>
 			</div>
-			<div
-				class="  rounded-lg p-4  flex flex-col gap-2 transform transition duration-500 hover:scale-[1.04]"
-			>
-				<img class=" justify-center rounded-lg" src="menu.webp" alt="" />
-				<p class=" text-left font-bold mt-4">OPEN DINING</p>
-				<p class="  font-normal text-justify text-sm">
-					There is no better reward for hard work than good food. Food is always more satisfying
-					after a day’s hard work
-				</p>
-			</div>
-			<div
-				class="  rounded-lg p-4  flex flex-col gap-2 transform transition duration-500 hover:scale-[1.04]"
-			>
-				<img class=" justify-center rounded-lg" src="menu.webp" alt="" />
-				<p class=" text-left font-bold mt-4">OPEN DINING</p>
-				<p class="  font-normal text-justify text-sm">
-					There is no better reward for hard work than good food. Food is always more satisfying
-					after a day’s hard work
+			<div data-aos="fade-up" class="   p-4 flex flex-col gap-2">
+				<Catering />
+				<p class=" text-left font-bold lg:text-xl mt-4">Corporate events and catering</p>
+				<p class="  font-normal text-justify text-sm lg:text-xl">
+					Elevate your events with our impeccable catering services, offering a culinary journey
+					that impresses every guest. From small gatherings to large-scale events, we ensure a
+					seamless and delightful dining experience.
 				</p>
 			</div>
 		</div>
