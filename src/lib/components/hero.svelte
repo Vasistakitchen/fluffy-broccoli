@@ -32,7 +32,7 @@
 		{#if ready}
 		<button transition:fade={{ delay: 650, duration: 300 }}
 		class="text-white text-sm md:text-xl md:mt-[-30px] transition-all ease-in origin-right hover:bg-white hover:text-black border-white border-2 p-4"
-		>Order Now</button
+		>Explore Kitchen</button
 	>
 		{/if}
 		<!-- <a href="#menu" class="text-[#ffffff] p-4 mx-4 text-3xl hover:bg-white hover:text-black ">Browse Menu</a> -->

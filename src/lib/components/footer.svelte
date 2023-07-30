@@ -1,12 +1,12 @@
-<section class="footer bg-slate-50">
-	<div class="footer-top gap-4 flex justify-evenly py-8 text-gray-700 flex-col md:flex-row">
+<section class="footer  bg-[#070503]">
+	<div class="footer-top gap-4 flex justify-evenly py-8 text-[#fff] flex-col md:flex-row">
 		<div class="place-order flex flex-col items-center">
 			<h1 class="text-center font-extrabold max-2md:text-4xl text-5xl max-w-[300px] mx-auto">
 				Place Your <br> Order Now
 			</h1>
-			<button class="text-gray-900 border-2 border-gray-800 mt-4 p-4 max-2md:text-xl text-2xl hover:underline underline-offset-8">Browse Menu</button>
+			<button class="text-[#fff] border-2 border-[#fff] mt-4 p-4 max-2md:text-xl text-2xl hover:underline underline-offset-8">Browse Menu</button>
 		</div>
-		<div class="bg-gray-900 w-[90%] max-md:mx-auto md:w-[2px] max-md:h-[2px]" />
+		<div class="bg-[#fff] w-[90%] max-md:mx-auto md:w-[2px] max-md:h-[2px]" />
 
 		<div class="contactus max-w-[90%] max-md:mx-auto flex flex-col">
 			<h1 class=" font-extrabold max-2md:text-2xl text-4xl">Contact us</h1>
@@ -70,7 +70,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="bg-gray-900 w-[90%] max-md:mx-auto md:w-[2px] max-md:h-[2px]" />
+		<div class="bg-[#fff] w-[90%] max-md:mx-auto md:w-[2px] max-md:h-[2px]" />
 		<!-- svelte-ignore a11y-missing-attribute -->
 		<iframe
 			class="rounded-3xl px-2 max-md:max-w-[90%] md:w-[150px] lg:w-auto  max-md:mx-auto"
