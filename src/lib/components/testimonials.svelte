@@ -1,17 +1,15 @@
-
-
-<section class=" lg:w-[90vw] max-w-[1600px] mx-auto">
-	<div class="testimonials grid grid-cols-1  md:grid-cols-3 items-center my-2">
+<section class="  max-w-[1600px] mx-auto">
+	<div class="testimonials grid grid-cols-1 gap-4 p-8 md:grid-cols-3 items-center my-2">
 		<div class="basis-1/3">
-			<div class="text-center p-4 mx-auto max-w-[400px]  text-5xl font-bold text-gray-700 my-2">
+			<div data-aos="fade-up"
+				class="text-center md:text-left p-4 mx-auto max-lg:max-w-[400px] text-5xl font-bold text-gray-700 my-2"
+			>
 				What our customers say
 			</div>
 		</div>
 		{#each Array(2) as _, index}
-			<div class="basis-1/3">
-				<div
-					class="testimonial max-w-[400px] mx-auto max-md:min-w-[310px]  flex flex-col items-start gap-2 p-8"
-				>
+			<div data-aos="fade-up" data-aos-delay={(index+1)*100} class="basis-1/3">
+				<div class="testimonial max-w-[400px] mx-auto flex flex-col items-start gap-2 p-4">
 					<svg
 						class="h-8 fill-gray-600"
 						style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;"
