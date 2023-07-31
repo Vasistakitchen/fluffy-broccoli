@@ -1,12 +1,14 @@
 <script>
+	export let prop
+	export let fixed
 	let y;
 </script>
 
 <svelte:window bind:scrollY={y} />
 <section
-	class="{y > 20
+	class="{prop==="other"||y > 20
 		? 'text-white bg-[#070503]'
-		: 'text-white   bg-zinc-900/40'} fixed top-0 z-50 transition-all ease-in"
+		: 'text-white   bg-zinc-900/40'} {fixed!=="true"?"fixed top-0 z-50":""} transition-all ease-in"
 >
 	<nav
 		id="navbar"
