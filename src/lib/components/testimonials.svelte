@@ -1,24 +1,24 @@
 <script>
 	let reviews = [
 		'I was thrilled with the unique charm of this small restaurant . I enjoyed exceptional flavors in the dishes and appreciated the attentive service. Excited to return and try more from the menu.',
+		'The restaurant is a hidden gem, offering mouthwatering food, affordable prices, and excellent personalized service, making it highly recommended for a delightful dining experience.',
 		'The restaurant is a hidden gem, offering mouthwatering food, affordable prices, and excellent personalized service, making it highly recommended for a delightful dining experience.'
 	];
-	let names = ['Naveen', 'Ravi'];
+	let names = ['Naveen', 'Ravi', 'Shyam'];
 </script>
 
 <section class="  max-w-[1600px] mx-auto">
+	<div class="flex flex-col p-8">
+		<h1 class="text-3xl md:text-5xl p-4  text-gray-700 font-semibold text-center md:text-start">
+			What our customers say
+		</h1>
+
+
 	<div
 		data-aos="fade-up"
-		class="testimonials grid grid-cols-1 gap-4 p-8 md:grid-cols-3 items-center my-2"
+		class="testimonials grid grid-cols-1 gap-4  md:grid-cols-3 items-center my-2"
 	>
-		<div class="basis-1/3">
-			<div
-				class="text-center md:text-left p-4 mx-auto max-lg:max-w-[400px] text-5xl font-bold text-gray-700 my-2"
-			>
-				What our customers say
-			</div>
-		</div>
-		{#each reviews as review, index}
+		{#each Array(names.length) as _, index}
 			<div data-aos="fade-up" data-aos-delay={(index + 1) * 100} class="basis-1/3">
 				<div class="testimonial max-w-[400px] mx-auto flex flex-col items-start gap-2 p-4">
 					<svg
@@ -43,12 +43,13 @@
 						></svg
 					>
 					<p class="text-gray-700 text-justify text-sm xl:text-xl">
-						{review}
+						{reviews[index]}
 					</p>
 					<h1 class="font-bold my-2">- {names[index]}</h1>
 				</div>
 			</div>
 		{/each}
+	</div>
 	</div>
 </section>
 

@@ -1,50 +1,42 @@
 <script>
-	import Foodplate from '../components/foodplate.svelte';
-	import Dining from '../components/dining.svelte';
-	import Delivery from '../components/delivery.svelte';
-	import Catering from '../components/catering.svelte';
+	let headings = [
+		'Wide range of menu',
+		'Open garden dining',
+		'Door step delivery',
+		'Events & catering'
+	];
+	let descriptions = [
+		'Savor an array of delectable flavors from our wide-ranging menu, carefully curated to cater to every palate. Whether you crave classic favorites or adventurous dishes, we have something to delight everyone.',
+		"Indulge in a memorable dining experience amidst nature's beauty at our open garden setting. Enjoy delicious food while surrounded by a serene and charming ambiance.",
+		'Experience the convenience of doorstep delivery, bringing our delectable cuisine straight to your home. Enjoy the same great taste and quality, now at your doorstep.',
+		'Elevate your events with our impeccable catering services, offering a culinary journeythat impresses every guest. From small gatherings to large-scale events, we ensure aseamless and delightful dining experience.'
+	];
+	let icons = [
+		'./fast-food-outline.svg',
+		'./restaurant.svg',
+		'./door-closed.svg',
+		'./concierge-bell.svg'
+	];
 </script>
 
-<section class=" max-w-[1600px] mx-auto">
-	<div class="  ">
-		<div
-			class=" grid sm:grid-cols-2 p-8 justify-center gap-4 align-middle items-center text-center"
-		>
-			<div data-aos="fade-up" class="   p-4 flex flex-col gap-2">
-				<Foodplate />
-				<p class=" text-left font-bold lg:text-xl mt-4">Wide range of menu</p>
-				<p class="  font-normal text-justify text-sm lg:text-xl">
-					Savor an array of delectable flavors from our wide-ranging menu, carefully curated to
-					cater to every palate. Whether you crave classic favorites or adventurous dishes, we have
-					something to delight everyone.
-				</p>
-			</div>
-			<div data-aos="fade-up" class="   p-4 flex flex-col gap-2">
-				<Dining />
-				<p class=" text-left font-bold lg:text-xl mt-4">Open Garden Dining</p>
-				<p class="  font-normal text-justify text-sm lg:text-xl">
-					Indulge in a memorable dining experience amidst nature's beauty at our open garden
-					setting. Enjoy delicious food while surrounded by a serene and charming ambiance.
-				</p>
-			</div>
+<section class="max-w-[1600px] mx-auto text-gray-700">
+	<div class="flex flex-col p-8">
+		<h1 class="text-4xl md:text-5xl p-4 text-gray-700 font-semibold text-center md:text-start">
+			What we provide
+		</h1>
 
-			<div data-aos="fade-up" class="   p-4 flex flex-col gap-2">
-				<Delivery />
-				<p class=" text-left font-bold lg:text-xl mt-4">Door step delivery</p>
-				<p class="  font-normal text-justify text-sm lg:text-xl">
-					Experience the convenience of doorstep delivery, bringing our delectable cuisine straight
-					to your home. Enjoy the same great taste and quality, now at your doorstep.
-				</p>
-			</div>
-			<div data-aos="fade-up" class="   p-4 flex flex-col gap-2">
-				<Catering />
-				<p class=" text-left font-bold lg:text-xl mt-4">Corporate events and catering</p>
-				<p class="  font-normal text-justify text-sm lg:text-xl">
-					Elevate your events with our impeccable catering services, offering a culinary journey
-					that impresses every guest. From small gatherings to large-scale events, we ensure a
-					seamless and delightful dining experience.
-				</p>
-			</div>
+		<div  class="features p-4 grid md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-4">
+			{#each Array(headings.length) as _, index}
+				<div data-aos="fade-up" data-aos-delay={index*100} class="feature bg-slate-100 hover:scale-[1.02] ease-in transition-all p-6 flex flex-col gap-3 max-w-[360px] rounded-xl">
+					<div class="flex flex-row items-center gap-2">
+						<img src={icons[index]} class="h-8" alt="food" />
+						<p class=" text-left font-bold text-xl">{headings[index]}</p>
+					</div>
+					<p class="  font-normal">
+						{descriptions[index]}
+					</p>
+				</div>
+			{/each}
 		</div>
 	</div>
 </section>
