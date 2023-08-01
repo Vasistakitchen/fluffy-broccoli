@@ -1,8 +1,8 @@
 <script>
-	import Foodplate from '../components/foodplate.svelte';
-	import Dining from '../components/dining.svelte';
-	import Delivery from '../components/delivery.svelte';
-	import Catering from '../components/catering.svelte';
+	import Foodplate from './foodplate.svelte';
+	import Dining from './dining.svelte';
+	import Delivery from './delivery.svelte';
+	import Catering from './catering.svelte';
 </script>
 
 <section class=" max-w-[1600px] mx-auto">

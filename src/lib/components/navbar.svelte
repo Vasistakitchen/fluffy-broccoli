@@ -8,11 +8,11 @@
 <section
 	class="{prop==="other"||y > 20
 		? 'text-white bg-[#070503]'
-		: 'text-white   bg-zinc-900/40'} {fixed!=="true"?"fixed top-0 z-50":""} transition-all ease-in"
+		: 'text-white   bg-zinc-900/40'} {fixed!=="true"?"fixed top-0 z-50":""} transition-all ease-in  flex-initial"
 >
 	<nav
 		id="navbar"
-		class="navbar w-[100vw] flex flex-row justify-between px-4 items-center p-2 mb-2"
+		class="navbar w-[100vw] flex flex-row justify-between px-4 items-center p-2 "
 	>
 		<img src={y > 20 ? './vasista_white.png' : './vasista_white.png'} alt="logo" class="h-[60px]" />
 		<div class="flex flex-row items-center">
@@ -20,7 +20,7 @@
 				<a href="#aboutus" class=" p-4 hover:underline underline-offset-4 ease-in transition-all mx-2"
 					>About Us</a
 				>
-				<a href="#" class=" p-4 hover:underline underline-offset-4 ease-in transition-all mx-2"
+				<a href="/enquiry" class=" p-4 hover:underline underline-offset-4 ease-in transition-all mx-2"
 					>Enquiry</a
 				>
 				<a href="#contactus" class=" p-4 hover:underline underline-offset-4 ease-in transition-all mx-2"
@@ -39,7 +39,7 @@
 		<a href="#aboutus" class=" p-2 hover:underline underline-offset-4 ease-in transition-all mx-1"
 			>About Us</a
 		>
-		<a href="#" class=" p-2 hover:underline underline-offset-4 ease-in transition-all mx-1"
+		<a href="/enquiry" class=" p-2 hover:underline underline-offset-4 ease-in transition-all mx-1"
 			>Enquiry</a
 		>
 		<a href="#contactus" class=" p-2 hover:underline underline-offset-4 ease-in transition-all mx-1"
