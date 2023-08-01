@@ -14,10 +14,10 @@
 		id="navbar"
 		class="navbar w-[100vw] flex flex-row justify-between px-4 items-center p-2 "
 	>
-		<img src={y > 20 ? './vasista_white.png' : './vasista_white.png'} alt="logo" class="h-[60px]" />
+		<a href="/"><img src={y > 20 ? './vasista_white.png' : './vasista_white.png'} alt="logo" class="h-[60px]" /></a>
 		<div class="flex flex-row items-center">
 			<div class="hidden md:block">
-				<a href="#aboutus" class=" p-4 hover:underline underline-offset-4 ease-in transition-all mx-2"
+				<a href={prop==="other"?"/#aboutus":"#aboutus"} class=" p-4 hover:underline underline-offset-4 ease-in transition-all mx-2"
 					>About Us</a
 				>
 				<a href="/enquiry" class=" p-4 hover:underline underline-offset-4 ease-in transition-all mx-2"
