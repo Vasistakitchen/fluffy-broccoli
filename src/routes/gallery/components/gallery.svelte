@@ -7,7 +7,7 @@
 	console.log(y);
 </script>
 
-<section class="overflow-hidden text-gray-700">
+<section class=" text-gray-700">
 	<div class="container px-5 py-2 mx-auto lg:pt-4 lg:px-32">
 		<div class="flex flex-col md:flex-row md:flex-wrap -m-1 md:-m-2">
 			<div class="flex flex-wrap md:w-1/2">

@@ -6,9 +6,9 @@
 
 <svelte:window bind:scrollY={y} />
 <section
-	class="{prop==="other"||y > 20
+	class="max-w-[100vw] {prop==="other"||y > 20
 		? 'text-white bg-[#070503]'
-		: 'text-white   bg-zinc-900/40'} {fixed!=="true"?"fixed top-0 z-50":""} transition-all ease-in  flex-initial"
+		: 'text-white   bg-zinc-900/40'} {fixed!=="true"?"fixed top-0 z-50":""} transition-all ease-in"
 >
 	<nav
 		id="navbar"
@@ -26,7 +26,7 @@
 				<a href="#contactus" class=" p-4 hover:underline underline-offset-4 ease-in transition-all mx-2"
 					>Contact Us</a
 				>
-				<a href="/gallery" class=" p-4 hover:underline underline-offset-4 ease-in transition-all mx-2"
+				<a href="/gallery" class=" p-4 hover:underline underline-offset-4 ease-in transition-all"
 					>Gallery</a
 				>
 			</div>

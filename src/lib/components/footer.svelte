@@ -1,10 +1,13 @@
-<section id="contactus" class="footer  bg-[#070503] flex-initial">
+<section id="contactus" class="footer bg-[#070503] flex-initial max-w-[100vw]">
 	<div class=" gap-4 flex justify-evenly py-8 text-[#fff] flex-col md:flex-row">
 		<div class="place-order flex flex-col items-center">
 			<h1 class="text-center font-extrabold max-2md:text-4xl text-5xl max-w-[300px] mx-auto">
-				Place Your <br> Order Now
+				Place Your <br /> Order Now
 			</h1>
-			<button class="text-[#fff] border-2 border-[#fff] mt-4 p-4 max-2md:text-xl text-2xl hover:underline underline-offset-8">Browse Menu</button>
+			<button
+				class="text-[#fff] border-2 border-[#fff] mt-4 p-4 max-2md:text-xl text-2xl hover:underline underline-offset-8"
+				>Browse Menu</button
+			>
 		</div>
 		<div class="bg-[#fff] w-[90%] max-md:mx-auto md:w-[2px] max-md:h-[2px]" />
 
@@ -73,9 +76,8 @@
 		<div class="bg-[#fff] w-[90%] max-md:mx-auto md:w-[2px] max-md:h-[2px]" />
 		<!-- svelte-ignore a11y-missing-attribute -->
 		<iframe
-			class="rounded-3xl px-2 max-md:max-w-[90%] md:w-[150px] lg:w-auto  max-md:mx-auto"
+			class="rounded-3xl px-2 max-md:max-w-[90%] md:w-[150px] lg:w-auto max-md:mx-auto"
 			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3798.7327538791983!2d83.36455154025703!3d17.80425279073123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a395b79e2a8bdc9%3A0xa3dff577d5f83269!2sVasista%20Kitchen!5e0!3m2!1sen!2sin!4v1690544525901!5m2!1sen!2sin"
-			
 			style="border:0;"
 			allowfullscreen=""
 			loading="lazy"
