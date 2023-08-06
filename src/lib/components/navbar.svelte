@@ -12,7 +12,7 @@
 >
 	<nav
 		id="navbar"
-		class="navbar w-[100vw] flex flex-row justify-between px-4 items-center p-2 "
+		class="navbar  flex flex-row justify-between px-4 items-center p-1 "
 	>
 		<a href="/"><img src={y > 20 ? './vasista_white.png' : './vasista_white.png'} alt="logo" class="h-[60px]" /></a>
 		<div class="flex flex-row items-center">
@@ -26,9 +26,12 @@
 				<a href="#contactus" class=" p-4 hover:underline underline-offset-4 ease-in transition-all mx-2"
 					>Contact Us</a
 				>
+				<a href="/gallery" class=" p-4 hover:underline underline-offset-4 ease-in transition-all mx-2"
+					>Gallery</a
+				>
 			</div>
 			<button
-				class=" h-[40px] px-4 transition-all ease-in {y > 20
+				class=" h-[40px] px-3 transition-all ease-in {y > 20
 					? ' border-white hover:bg-white hover:text-black'
 					: ' border-white hover:bg-white hover:text-black'} border-2 mx-2">Order Now</button
 			>
@@ -44,6 +47,9 @@
 		>
 		<a href="#contactus" class=" p-2 hover:underline underline-offset-4 ease-in transition-all mx-1"
 			>Contact Us</a
+		>
+		<a href="/gallery" class=" p-2 hover:underline underline-offset-4 ease-in transition-all mx-1"
+			>Gallery</a
 		>
 	</div>
 </section>
