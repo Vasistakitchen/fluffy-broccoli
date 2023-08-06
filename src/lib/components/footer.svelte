@@ -1,4 +1,4 @@
-<section id="contactus" class="footer bg-[#070503] flex-initial max-w-[100vw]">
+<section id="contactus" class="footer bg-[#252525] flex-initial max-w-[100vw]">
 	<div class=" gap-4 flex justify-evenly py-8 text-[#fff] flex-col md:flex-row">
 		<div class="place-order flex flex-col items-center">
 			<h1 class="text-center font-extrabold max-2md:text-4xl text-5xl max-w-[300px] mx-auto">

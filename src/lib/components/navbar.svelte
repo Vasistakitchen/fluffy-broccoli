@@ -6,9 +6,9 @@
 
 <svelte:window bind:scrollY={y} />
 <section
-	class="max-w-[100vw] {prop==="other"||y > 20
-		? 'text-white bg-[#070503]'
-		: 'text-white   bg-zinc-900/40'} {fixed!=="true"?"fixed top-0 z-50":""} transition-all ease-in"
+	class=" {prop==="other"||y > 200
+		? 'text-white bg-[#252525]'
+		: 'text-white   bg-zinc-900/40'} {fixed!=="true"?"fixed top-0 z-50 w-[100vw]":""} transition-all ease-in"
 >
 	<nav
 		id="navbar"

@@ -19,7 +19,7 @@
 			/>
 			<label
 				for="option0"
-				class="p-2 px-4 text-xl cursor-pointer font-bold rounded-xl peer-checked/option1:bg-gray-900 peer-checked/option1:text-gray-200"
+				class="p-2 px-4 text-xl cursor-pointer font-bold rounded-xl peer-checked/option1:bg-[#252525] peer-checked/option1:text-gray-200"
 				>Dining</label
 			>
 		</div>
@@ -31,7 +31,7 @@
 			}} type="radio" value="catering" id="option1" name="tabs" class="peer/option2 appearance-none" />
 			<label
 				for="option1"
-				class="p-2 text-xl rounded-xl cursor-pointer font-bold peer-checked/option2:bg-gray-900 peer-checked/option2:text-gray-200"
+				class="p-2 text-xl rounded-xl cursor-pointer font-bold peer-checked/option2:bg-[#252525] peer-checked/option2:text-gray-200"
 				>Catering</label
 			>
 		</div>
