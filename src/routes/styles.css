@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'nexa';
+	src: url('./NexaDemo-Light.otf') format('opentype');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'nexa';
+	src: url('./NexaDemo-Bold.otf') format('opentype');
+	font-weight: bold;
+}
+
+html{
+	scroll-behavior: smooth;
+	scroll-padding-top: 5rem;
+}
+
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #f2933a #000000;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+	background: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #f2933a;
+	border-radius: 10px;
+	border: 3px solid #000000;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+*:focus {
+    outline: none !important;
+}
